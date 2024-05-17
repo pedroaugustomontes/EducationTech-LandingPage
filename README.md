@@ -1,4 +1,4 @@
-# EducationTech-LandingPage
+# EdTech
 
 ### Título do Caso de Uso:
 - Desenvolvimento de Site para EdTech Ofertando Bootcamps com Utilização de Flexbox
