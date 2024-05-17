@@ -117,51 +117,40 @@ a:hover {
   flex: 1;
 }
 
-.carousel-container {
+.image-gallery {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
   max-width: 1200px;
   margin: auto;
-  overflow: hidden;
 }
 
-.carousel {
-  display: flex;
-  transition: transform 0.5s ease;
-}
-
-.carousel .card {
-  flex: 0 0 100%;
-  max-width: 100%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.gallery-item {
+  flex: 0 0 calc(33.333% - 20px);
+  background-color: #fff;
+  border: 1px solid #ddd;
   border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  margin: 0 10px;
 }
 
-.carousel-control {
-  background: none;
-  border: none;
-  font-size: 2rem;
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1;
-  user-select: none;
+.gallery-item img {
+  width: 100%;
+  height: auto;
 }
 
-.carousel-control.prev {
-  left: 10px;
+.image-caption {
+  padding: 15px;
 }
 
-.carousel-control.next {
-  right: 10px;
+.image-caption h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.25em;
 }
 
+.image-caption p {
+  margin: 0;
+}
 footer {
   background-color: #333;
   color: white;
