@@ -1,49 +1,61 @@
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-        header {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
+img {
+  display: block;
+  /* max-width: 100%; */
+}
 
-        nav {
-            background-color: #444;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
+header {
+  background-color: #151515;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            padding: 20px;
-        }
+a {
+  color: rgb(255, 255, 255);
+  transition: color 0.2s ease-out 0s;
+  font-size: 1rem;
+  text-decoration: none;
+  margin: 0px 0.5rem;
+  padding: 12px;
+}
+a:hover {
+  color: #932ed1;
+}
 
-        .bootcamp {
-            flex: 1 1 300px;
-            background-color: #f4f4f4;
-            margin-bottom: 20px;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
 
-        .bootcamp img {
-            width: 100%;
-            border-radius: 5px;
-            margin-bottom: 10px;
-        }
+.bootcamp {
+  flex: 1 1 300px;
+  background-color: #f4f4f4;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 20px;
-        }
+.bootcamp img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
