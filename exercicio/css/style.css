@@ -9,6 +9,7 @@ img {
   /* max-width: 100%; */
 }
 
+/* Header */
 header {
   background-color: #151515;
   color: white;
@@ -35,15 +36,16 @@ a:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 20px;
+  gap: 12px;
 }
 
 .bootcamp {
-  flex: 1 1 300px;
+  flex: 1 1 250px;
   background-color: #f4f4f4;
   margin-bottom: 20px;
   padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 .bootcamp img {
